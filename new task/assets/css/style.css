@@ -1,0 +1,322 @@
+@import url(../css/clash-display.css);
+
+:root {
+    --c-dark: #212529;
+    --a-text: #222;
+    --c-brand-l: #6970dd;
+    --c-body: #727272;
+    --font-base: "clash-display";
+    --box-s: 0px 15px 25px #3333335f;
+    --font-family: "Roboto", sans-serif;
+    ;
+
+}
+.activeLink{
+  border: 3px solid #FF9A00;
+    color: #fff;
+}
+
+a.nav-link {
+    color: #fff !important;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 600;
+    color: var(--c-dark);
+   font-size: 20px !important;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+    color: var(--a-text);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+.img-f {
+    width: 53% !important;
+    margin: -12% !important;
+}
+
+
+
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+    border: 1px solid #FF9A00;
+    background-color: #FF9A00;
+
+}
+
+/**/
+.navbar {
+    box-shadow: var(--box-s);
+}
+
+
+.btn {
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: uppercase;
+    border-radius: 0px;
+    padding: 10px 24px;
+}
+
+.btn-brand {
+    background-color: var(--c-brand);
+    color: white;
+}
+
+.btn-brand:hover {
+    background-color: var(--c-brand-l);
+    color: white;
+}
+
+#hero {
+    background-image: linear-gradient(#0000005d, #00000010), url(../image/shopping-for-new-year-why-use-your-credit-card-d.jpg);
+    padding: 80px 0px !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.second {
+    padding: 30px 0px !important;
+    background-color: #212529;
+
+}
+
+.text-change {
+    font-family: "DM Serif Text", serif;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+    color: #fff;
+}
+
+.text-change-normal {
+    font-family: "DM Serif Text", serif;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.text-change:hover {
+    color: #e29d1e;
+}
+
+
+
+.third {
+    padding: 50px 0px;
+}
+
+.text-orange {
+    color: #FF9A00;
+    ;
+}
+
+.image-women {
+    margin: auto 25% !important;
+}
+
+.image-computer {
+    margin: auto 0% !important;
+}
+
+.back {
+    background-color: #FF9A00;
+    border: 1px solid #FF9A00;
+}
+
+
+
+.fa-chevron-left,
+.fa-chevron-right:before {
+    content: "\f053";
+    background: #000;
+    padding: 10px;
+}
+
+
+/* text-title */
+.section-title {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.section-title .line {
+    width: 60px;
+    height: 4px;
+    background-color: var(--c-brand);
+    margin: 16px auto 24px auto;
+}
+
+.section-title p {
+    max-width: 500px;
+    margin: auto;
+
+}
+
+.iconbox {
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    background-color: #4e57d44b;
+    font-size: 24px;
+    flex: none;
+}
+
+.theme-shadow {
+    box-shadow: var(--box-s);
+}
+
+.services {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    padding: 20px;
+
+}
+
+.services::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: var(--c-brand);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.services:hover {
+    background-color: #FF9A00;
+    color: #fff;
+
+}
+
+.services:hover::after {
+    width: 100%;
+    height: 100%;
+    background-color: var(--c-brand);
+    z-index: -1;
+    padding: 20px !important;
+}
+
+.services:hover h3,
+.services:hover p {
+    color: #fff;
+}
+
+.services:hover .iconbox {
+    background-color: #ffffff3e;
+}
+
+#counter {
+    background-image: linear-gradient(#0000008b, #000000aa), url(../image/neom-bOMVTvE2QFU-unsplash.jpg);
+}
+
+.image-zoom {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-zoom-wrap img {
+    transition: 0.4s ease-in-out;
+}
+
+.image-zoom:hover .image-zoom-wrap img {
+    transform: scale(1.1);
+}
+
+.portfolio .iconbox {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%);
+}
+
+.portfolio:hover .iconbox {
+
+    top: 50%;
+    opacity: 1;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: #000 !important;
+}
+
+.bgcolor {
+    background-color: #fff;
+    color: #000 !important;
+
+}
+
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+    margin: -15% !important;
+}
+
+span {
+    color: #28ed59;
+    font-weight: 700;
+}
+
+.font-t {
+    background: -webkit-linear-gradient(#FF9A00, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-down {
+    display: block;
+    margin-left: auto;
+    margin-right: 100%;
+}
+
+.box {
+    margin: 0px 15px !important;
+}
+
+@media(max-width:576) {
+    body {
+        padding: 15px !important;
+    }
+
+}
